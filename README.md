@@ -19,7 +19,7 @@ Remove the null values from the data
 Save the Clean data to the file
 
 # CODE
-
+```
 import pandas as pd
 df=pd.read_csv("Data_set.csv")
 print(df)
@@ -39,7 +39,7 @@ df.head()
 df.info()
 df.isnull().sum()
 
-
+```
 # OUPUT
 
 ![image](https://user-images.githubusercontent.com/118626456/227699596-82a2134c-d29a-4fbf-bd83-929a017aa80c.png)
